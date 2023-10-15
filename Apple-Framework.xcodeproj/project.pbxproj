@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		642200252ADBCB60002825EF /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642200242ADBCB60002825EF /* FrameworkDetailView.swift */; };
+		642200272ADBD180002825EF /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642200262ADBD180002825EF /* AFButton.swift */; };
+		642200292ADBDF63002825EF /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642200282ADBDF63002825EF /* FrameworkGridViewModel.swift */; };
+		6422002B2ADC2490002825EF /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422002A2ADC2490002825EF /* SafariView.swift */; };
+		6422002D2ADC2994002825EF /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422002C2ADC2994002825EF /* FrameworkTitleView.swift */; };
 		64F6C8A92AD62B6A0093FDB1 /* Apple_FrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F6C8A82AD62B6A0093FDB1 /* Apple_FrameworkApp.swift */; };
 		64F6C8AD2AD62B6B0093FDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F6C8AC2AD62B6B0093FDB1 /* Assets.xcassets */; };
 		64F6C8B02AD62B6B0093FDB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F6C8AF2AD62B6B0093FDB1 /* Preview Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		642200242ADBCB60002825EF /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		642200262ADBD180002825EF /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		642200282ADBDF63002825EF /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		6422002A2ADC2490002825EF /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		6422002C2ADC2994002825EF /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		64F6C8A52AD62B6A0093FDB1 /* Apple-Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Framework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F6C8A82AD62B6A0093FDB1 /* Apple_FrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworkApp.swift; sourceTree = "<group>"; };
 		64F6C8AC2AD62B6B0093FDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +65,12 @@
 			children = (
 				64F6C8A82AD62B6A0093FDB1 /* Apple_FrameworkApp.swift */,
 				64F6C8B62AD632B70093FDB1 /* Framework.swift */,
+				6422002A2ADC2490002825EF /* SafariView.swift */,
 				64F6C8B82AD634850093FDB1 /* FrameworkGridView.swift */,
+				6422002C2ADC2994002825EF /* FrameworkTitleView.swift */,
+				642200282ADBDF63002825EF /* FrameworkGridViewModel.swift */,
+				642200242ADBCB60002825EF /* FrameworkDetailView.swift */,
+				642200262ADBD180002825EF /* AFButton.swift */,
 				64F6C8AC2AD62B6B0093FDB1 /* Assets.xcassets */,
 				64F6C8AE2AD62B6B0093FDB1 /* Preview Content */,
 			);
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642200252ADBCB60002825EF /* FrameworkDetailView.swift in Sources */,
 				64F6C8B92AD634850093FDB1 /* FrameworkGridView.swift in Sources */,
 				64F6C8B72AD632B70093FDB1 /* Framework.swift in Sources */,
+				642200272ADBD180002825EF /* AFButton.swift in Sources */,
 				64F6C8A92AD62B6A0093FDB1 /* Apple_FrameworkApp.swift in Sources */,
+				642200292ADBDF63002825EF /* FrameworkGridViewModel.swift in Sources */,
+				6422002D2ADC2994002825EF /* FrameworkTitleView.swift in Sources */,
+				6422002B2ADC2490002825EF /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
